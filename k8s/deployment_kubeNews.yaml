@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: news
-          image: rubensra/kube-news:v1
+          image: rubensra/kube-news:{{TAG}}
           ports:
           - containerPort: 8080
           env:
